@@ -1,0 +1,63 @@
+
+
+
+
+h1 {
+  
+  font-family: 'Mystery Quest', cursive;
+  color:purple;
+  text-align:center;
+}
+
+h2 {
+  
+  color:purple;
+  text-align: center;
+}
+
+h3 {
+
+   color:purple;
+  text-align: center;
+}
+
+h4 {
+  
+   color:purple;
+  text-align: center;
+}
+
+p {
+  color: gray;
+  text-align: center;
+font-family: comic sans ms;
+}
+
+
+
+
+.nav {
+  width: 100%;
+  border: 1px solid;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li{
+  display: inline;
+  font-size: xx-large;
+  font-family: comic sans ms;
+   text-align: center;
+}
+
+
+.nav a {
+  display: inline-block;
+  color:purple;
+font-family: comic sans ms;
+  padding: 30px;
+   text-align: center;
+}
