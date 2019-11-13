@@ -1,9 +1,20 @@
-body{
 
-background-color:#ffe6f2;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+header {
+  background-color: linen;
+  padding: 20px;
+  text-align: center;
+
 }
 
 
+body{
+background-color:#ffe6f2;
+border: 7px dashed pink;
+}
 
 
 h1 {
@@ -13,23 +24,12 @@ h1 {
   text-align:center;
 }
 
-h2 {
+h2,h3,h4 {
   
   color:purple;
   text-align: center;
 }
 
-h3 {
-
-   color:purple;
-  text-align: center;
-}
-
-h4 {
-  
-   color:purple;
-  text-align: center;
-}
 
 p {
   color: gray;
@@ -48,6 +48,7 @@ font-family: comic sans ms;
   margin: 0;
   padding: 0;
   text-align: center;
+  background-color:linen;
 }
 
 .nav li{
@@ -64,4 +65,9 @@ font-family: comic sans ms;
 font-family: comic sans ms;
   padding: 30px;
    text-align: center;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
 }
