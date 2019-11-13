@@ -42,8 +42,8 @@ font-family: comic sans ms;
 
 .nav {
   width: 100%;
-  border: 1px solid;
-  border-width: 1px 0;
+ 
+ 
   list-style: none;
   margin: 0;
   padding: 0;
@@ -53,7 +53,7 @@ font-family: comic sans ms;
 
 .nav li{
   display: inline;
-  font-size: xx-large;
+  font-size: x-large;
   font-family: comic sans ms;
    text-align: center;
 }
@@ -63,11 +63,36 @@ font-family: comic sans ms;
   display: inline-block;
   color:purple;
 font-family: comic sans ms;
-  padding: 30px;
+  padding: 20px;
    text-align: center;
 }
 
 #map {
   height: 400px;
   width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: linen;
+  
+}
+
+li {
+  float: center ;
+}
+
+li a {
+  display: block;
+  color: purple;
+  text-align: right;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active){
+  background-color: orange;
 }
