@@ -12,4 +12,3 @@ var map;
         });
       }
   
-	  window.addEventListener('load', chongqing);
