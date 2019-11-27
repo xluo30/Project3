@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 80%;
+		background-color:#ffe6f2;
+		border: 7px dashed pink;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+     function initMap() {
+        var chongqing = {lat:29.4316, lng:  106.9123};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 5,
+          center: chongqing ,
+        });
+        var marker = new google.maps.Marker({
+          position: chongqing,
+          map: map
+		
+        });
+      }
+    </script>
+       
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxfbHKF_PAx0GZ3gHqNvH-dq_1XvOi8Y8&callback=initMap&language=en-US">
+    </script>
+  </body>
+</html>
